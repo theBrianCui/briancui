@@ -4,11 +4,11 @@
   "description": "The official website of the Information & Systems Security Society.",
   "dependencies": {},
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-clean": "^0.3.2",
-    "gulp-clean-css": "^2.0.12",
+    "gulp-clean-css": "^4.2.0",
     "gulp-compile-handlebars": "^0.6.1",
-    "gulp-htmlmin": "^2.0.0",
+    "gulp-htmlmin": "^5.0.1",
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^2.0.0"
   },
