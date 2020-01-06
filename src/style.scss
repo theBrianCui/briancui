@@ -1,0 +1,76 @@
+$main-box-size: 150px;
+$foreground-color: #ffffff;
+$foreground-subtitle: #b4b4b4;
+$background-dark-semi: rgba(0, 0, 0, 0.8);
+
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    background-color: black;
+}
+
+.page {
+    width: 100%;
+    height: 100%;
+    background-image: url("backgrounds/diablolake_1.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content {
+    height: $main-box-size;
+    display: inline-flex;
+    align-items: center;
+}
+
+.link-container {
+    display: flex;
+    margin-left: .75rem;
+}
+
+.link-container .link {
+    height: $main-box-size;
+    width: $main-box-size;
+    color: $foreground-color;
+    background-color: $background-dark-semi;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: $foreground-subtitle;
+    text-transform: uppercase;
+    margin-right: 0.75rem;
+}
+
+.link-container .link:last-child {
+    margin-right: 0;
+}
+
+img.profile-image {
+    height: 100%;
+}
+
+.background-info {
+    color: $foreground-color;
+    background-color: $background-dark-semi;
+    position: absolute;
+    right: 0;
+    bottom: 2rem;
+    padding: 0.75rem;
+}
+
+.background-info .subtitle {
+    color: $foreground-subtitle;
+    font-size: .75rem;
+}
